@@ -1,0 +1,6 @@
+git config --global user.name "jordanmking"
+git config --global user.email "jordanm_king@yahoo.com"
+ssh-keygen -t rsa
+cat /home/magok/.ssh/id_rsa.pub
+paste into github and voila!
+
