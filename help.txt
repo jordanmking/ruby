@@ -1,0 +1,27 @@
+okay i've got a problem
+ive been trying to install ubuntu to an internal drive via USB to SATA
+externally through the usb port on my notebook
+my notebook doesnt recognize the hard drive at all
+so i loaded into the bios settings of my lenovo yoga
+connected the hard drive via usb
+changed to enable legacy boot
+selected boot priority
+1.legacy (internal hard drive connected via usb)
+2.usb boot stick
+3.normal shit
+so i load into the hard drive then the bootable usb kicks on
+and i get this
+failed to load ldlinux.c32
+boot failed: please change disks and press a key to continue
+so when i try other bootable usbs same procedure
+i am just stuck with the usbs boot loading screen
+for hours
+nothing loads
+so since the hard drive is not communicating with the hp notebook
+i gathered that its a hp bios communication error
+perhaps an old bios version
+but on the lenovo it registers but doesn't load fully
+so this makes me believe that it is not the connector that is having 
+communication issues it must be the hard drive itself????
+0_o
+any opinions/ideas
