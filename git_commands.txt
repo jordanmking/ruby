@@ -3,4 +3,9 @@ git config --global user.email "jordanm_king@yahoo.com"
 ssh-keygen -t rsa
 cat /home/magok/.ssh/id_rsa.pub
 paste into github and voila!
+first try
+ssh -T git@github.com
+set origin**
+git remote add origin https://github.com/jordanmking/ruby
+git pull origin master
 
