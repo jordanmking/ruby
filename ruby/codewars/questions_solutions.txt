@@ -1,0 +1,43 @@
+codewars cheat sheet
+-------------------------------------
+split a string into an array of words
+==
+string.split(" ")
+-------------------------------------
+given an array/vector of string(s).
+ sort alphabetically (case-sensitive)
+and return the first value. 
+def split(str)
+str.split(" ")
+returned value must be a string and
+have '***' between each of its 
+letters.
+== 
+def two_sort(s)
+  s.min.chars.join('***')
+end
+------------------------------------
+create a function/method with 2 args
+that will return a list of length(n)
+with multiples of (x).
+assume both the given number and the 
+# / * to count will be positive #'s 
+> 0. return results ass arr.
+example count_by(1,10) 
+# should return [1,2,3,4,5,6,7,8,9,10]
+count_by(2,5)
+# should be [2,4,6,8,10]
+==
+def count_by(x, n)
+  (1..n).map|i| i*x}
+end
+--------------------------------------
+accum("abcd")    # "A-Bb-Ccc-Dddd"
+accum("RqaEzty") # "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt")    # "C-Ww-Aaa-Tttt"
+==
+def accum(s)
+  s.chars.each_with_index.map{|c,i| c.upcase + c.downcase * i }.join('-')
+end
+--------------------------------------
+
