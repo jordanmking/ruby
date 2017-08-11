@@ -40,4 +40,19 @@ def accum(s)
   s.chars.each_with_index.map{|c,i| c.upcase + c.downcase * i }.join('-')
 end
 --------------------------------------
+convert a boolean to a string
+==
+def boolean_to_string(b)
+  b ? "true" : "false"
+end
+--------------------------------------
+convert number into dollars and cents
+ex 4 = $4.00
+4.3 = $4.30
+etc
+==
+def format_money(amount)
+  '$%.2f' % amount
+end
+-----------------------------------------
 
