@@ -1,0 +1,25 @@
+alrighty back again with the same problem but more specifications.
+i've been trying for 2 days to install mint to an internal harddrive via 
+my lenovo via usb to sata and i have had alot of difficulties.
+i can get the hard drive to show up in disks as /dev/sdb but it says no media
+and under size __.it won't show up however in gparted.
+i'm wondering if there is something i have to do to prepare the media to 
+show up in gparted as /dev/sdb and then i wish to format drive and all that
+..
+whenever i try to format the drive from windows disk part it doesnt
+let me create partition primary it says device is not ready
+i googled it and came up with a few sites non related 
+something telling me to delete something in computer management
+under usb and i did and still nothing
+i am wondering do i have a corrupt hard drive
+or is it just not able to be read because it needs to be prepped
+or is my controller/connector not communicating with linux
+because it shows up in disks so i dont think thats the problem
+ive been narrowing it down but i ordered a western digital external 2tb
+to use as my portable collection of distros
+so in two days ill probably just drill press these two wonky jank hard drives
+unless some unknown master can solve my problem.
+if you need any more specs let me know. 
+thx
+~magok
+

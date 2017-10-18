@@ -1,0 +1,15 @@
+[    0.000000] esrt: Reserving ESRT space from 0x00000000bf039d18 to 0x00000000bf039d50.
+[    0.054042] ftrace: allocating 33454 entries in 131 pages
+[    0.598564] usbcore: registered new interface driver usbfs
+[    0.598577] usbcore: registered new interface driver hub
+[    1.731109] Linux agpgart interface v0.103
+[    1.765493] uhci_hcd: USB Universal Host Controller Interface driver
+[    2.399816] sdhci: Secure Digital Host Controller Interface driver
+[    2.849552] usbcore: registered new interface driver usbhid
+[   17.037579] ppdev: user-space parallel port driver
+[   22.038432] media: Linux media interface: v0.10
+[   22.098799] Linux video capture interface: v2.00
+[   22.269460] usbcore: registered new interface driver btusb
+[   22.644799] usbcore: registered new interface driver uvcvideo
+[   43.730628] vboxdrv: Successfully loaded version 5.0.40_Ubuntu (interface 0x00240000)
+
