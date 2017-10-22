@@ -1,3 +1,4 @@
+
 bills = {'carecredit'=>27,'creditcard'=>0,'meds/doc'=>45,'chowder'=>20,'insurance'=>0,'phone'=>0,'stor'=>90,'amazon'=>12,'food'=>100,'gas'=>15,
 'car insurance'=>60,'banfield'=>80,'dog food and flea'=>30,'photoshop'=>22,'school' => 200}
 bills2 = {'rent'=>1000,'electric'=>100,'internet'=>80}
@@ -6,11 +7,11 @@ unexpected = {'internetsetup'=>0,'schoolsupp'=>0,'movingtruck'=>0,'prorated'=>0,
 debt = 0
 bills.each_value{|x| debt += x}
 bills2.each_value{|x| debt += x}
-bills3.each_value{|x| debt += x}
+##bills3.each_value{|x| debt += x}
 unexpected.each_value{|x|debt+=x}
 ##puts 'your debt each month is'
 ##puts debt
-pay = 4750
+pay = 3800
 ##puts 'your left over is'
 left = pay - debt 
 puts left
